@@ -1,0 +1,116 @@
+#buscar{
+    width: 200px;
+    height: 47.5px;
+    font-size: 16pt;
+    border-bottom: 5px solid #91E3C5;
+    color: black;
+    transition: 1s;
+}
+
+#buscar:hover{
+    background-color: #91E3C5;
+}
+
+#notepad{
+    margin-top: 25px;
+    width: 35vh;
+}
+
+.todos{
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+    background-color: #91E3C5;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+aside div p{
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+footer div img:hover{
+    background-color: #91E3C5;
+    border-radius: 15%;
+}
+
+header{
+    background-color: #006942;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div h1{
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 36pt;
+    color: white;
+}
+
+header div input{
+    width: 300px;
+    height: 45px;
+    margin-top: 160px;
+    border-style: none;
+    font-size: 12pt;
+    text-align: center;
+}
+
+header div input::placeholder{
+    text-align: center;
+    font-size: 16pt;
+}
+
+header h3{
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 16pt;
+}
+
+.flat-table {
+    font-family: sans-serif;
+    font-size: 12pt;
+    width: 90vh;
+    height: 85vh;
+    background-color: #006942;
+    border-radius: 1.5%;
+    display: flex;
+}    
+
+tr{
+    color: white;
+    font-weight: normal;
+    
+}
+
+td{
+    color: black;
+    text-align: center;
+    border-style: none;   
+} 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>List To-Do</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/notepad.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="todos">
+            <h1>
+                List To-Do's
+            </h1>
+            <img src="image/checklist.png" id="notepad" alt="Imagem de um bloco de notas e um lápis">
+        </div>
+        <div>
+            <input type="text" name="idUser" id="idUser" placeholder="Digite seu ID">
+            <input type="button" name="buscar" id="buscar" onclick="buscaDadosCliente()" value="Buscar">
+        </div>
+        <footer>
+                <div>
+                    <a href="https://www.facebook.com/matheus.mastrocinque.1" target="_blank">
+                        <img src="image/facebook.png" alt="Logotipo do Facebook">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/matheus-mastrocinque-4a8b25171/" target="_blank">
+                        <img src="image/linkedin.png" alt="Logotipo do LinkedIn">
+                    </a>            
+                </div>
+                
+        </footer>
+        <h3>
+            Contate o desenvolvedor.
+        </h3>
+    </header>
+    <aside>
+        <div id="dadosUsuario">
+            <p>Seus To-dos </p>
+            <p>irão aparecer aqui!!</p>
+            <img src="image/download.png" alt="Imagem de uma seta direcionando para baixo">
+        </div>
+    </aside>
+</body>
+</html>
